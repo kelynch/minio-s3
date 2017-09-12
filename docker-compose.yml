@@ -1,0 +1,12 @@
+minio:
+  image: minio/minio
+  ports:
+    - "9000:9000"
+  env: .env
+  volumes:
+    - ./test/.minio/data:/export
+    - ./test/.minio/config:/root/.minio
+  environment:
+    - "MINIO_ACCESS_KEY=${MINIO_ACCESS_KEY"
+    - "MINIO_SECRET_KEY=${MINIO_SECRET_KEY}"
+  command: server /export
