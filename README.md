@@ -1,6 +1,6 @@
 ## README for minio-s3
 
-This is a Dockerized deployment of [Minio](https://minio.io/) for quickly simulting an S3 instance, with additional tools for using s3cmd to communicate with the instance. 
+This is a Dockerized deployment of [Minio](https://minio.io/) for quickly simulting an S3 instance, with additional tools for using [s3cmd](http://s3tools.org/usage) to communicate with the instance. 
 
 Minio can also work with AWS::SDK and aws-cli.
 
