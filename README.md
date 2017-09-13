@@ -6,7 +6,7 @@ Minio can also work with AWS::SDK and aws-cli.
 
 ### Deployment
 
-* Make the directories for config and data: `mkdir -p /test/.minio/config` and `mkdir -p /test/.minio/data`.
+* Make the directories for config and data: `mkdir -p test/.minio/config` and `mkdir -p test/.minio/data`.
 
 * Copy `.env.example` to `.env` and input dummy keys for `MINIO_ACCESS_KEY` and `MINIO_SECRET_KEY`.
 
