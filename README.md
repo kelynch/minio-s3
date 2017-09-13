@@ -14,6 +14,8 @@ Minio can also work with AWS::SDK and aws-cli.
 
 * Run `docker-compose up`.
 
+* You can visit your locally-deployed minio instance at [http://localhost:9000/minio](http://localhost:9000/minio), using the values of `MINIO_ACCESS_KEY` and `MINIO_SECRET_KEY` to log in.
+
 ### Sample commands
 
 #### Add a bucket
